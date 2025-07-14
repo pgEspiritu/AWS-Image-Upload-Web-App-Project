@@ -38,6 +38,7 @@
 9. **Review and Launch**:
    - Choose or create a **Key Pair** (e.g., `image-uploader-key.pem`)
    - 📥 Download the `.pem` file and **save it securely** — you’ll need this to connect via SSH
+   - Launch instance
 
 ---
 
