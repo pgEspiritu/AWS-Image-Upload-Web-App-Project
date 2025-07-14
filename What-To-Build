@@ -33,3 +33,9 @@ A **simple image upload web app**, hosted on **Amazon EC2**, storing uploaded fi
 | Monitoring      | CloudWatch         | Track usage, uptime, set alarms      |
 | Load Balancer   | ALB (optional)     | Distribute incoming traffic          |
 | Auto Scaling    | ASG (optional)     | Scale EC2 instances automatically    |
+
+---
+
+## 🖼️ Architecture Diagram
+
+![Diagram](Architecture.png)
