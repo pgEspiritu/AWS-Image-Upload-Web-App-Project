@@ -38,4 +38,4 @@ A **simple image upload web app**, hosted on **Amazon EC2**, storing uploaded fi
 
 ## 🖼️ Architecture Diagram
 
-![Diagram](Architecture.png)
+![Diagram](image/Architecture.png)
