@@ -12,3 +12,11 @@ This repository contains:
 - ⚖️ Optional load balancer and auto-scaling config
 
 > Perfect for learners, job seekers, or cloud professionals looking to demonstrate real AWS skills in action.
+
+## 📌 Summary
+This project serves as a practical foundation in AWS monitoring and alerting, showcasing the ability to proactively manage and visualize infrastructure health using native AWS services.
+
+## 🏅 Credits
+Special thanks to `Sir James Santos` and `Master Cloud Training` for the inspiration and foundational lessons in this guide.
+This walkthrough is a personalized adaptation based on concepts taught in his eBook:
+📘 Build your First Cloud Portfolio
