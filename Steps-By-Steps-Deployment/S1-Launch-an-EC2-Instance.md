@@ -42,7 +42,8 @@
 
 ---
 
-### 🖥️ Connect to EC2 Instance (I used Putty in my case - Here's the guide)
+### 🖥️ Connect to EC2 Instance 
+> I used Putty in my case - [Here's the guide](Connect-Via-Putty.md)
 
 10. Open your terminal and run this command:
 
