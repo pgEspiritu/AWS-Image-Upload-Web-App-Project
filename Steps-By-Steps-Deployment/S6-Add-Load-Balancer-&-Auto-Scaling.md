@@ -1,7 +1,5 @@
 ## ⚖️ Step 6 (Optional): Add Load Balancer + Auto Scaling
 
-## ⚖️ Step 6 (Optional): Add Load Balancer + Auto Scaling
-
 ---
 
 ### 🧱 Create a Launch Template
