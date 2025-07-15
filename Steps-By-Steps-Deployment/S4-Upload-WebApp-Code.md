@@ -5,14 +5,84 @@
 #### `upload.html`
 ```html
 <!DOCTYPE html>
-<html>
-<head><title>Upload Image</title></head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Upload Portal</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #4facfe, #00f2fe);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .upload-container {
+      background: #fff;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      text-align: center;
+      width: 400px;
+    }
+
+    .upload-container h2 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    input[type="file"] {
+      margin: 15px 0;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    input[type="submit"] {
+      background-color: #4facfe;
+      border: none;
+      color: white;
+      padding: 10px 25px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #00c3ff;
+    }
+
+    .footer {
+      margin-top: 15px;
+      font-size: 12px;
+      color: #888;
+    }
+
+    @media (max-width: 500px) {
+      .upload-container {
+        width: 90%;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
 <body>
-  <h2>Upload an Image</h2>
-  <form action="upload.php" method="post" enctype="multipart/form-data">
-    <input type="file" name="file" />
-    <input type="submit" value="Upload" />
-  </form>
+
+  <div class="upload-container">
+    <h2>📤 Upload an Image</h2>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+      <input type="file" name="file" accept="image/*" required />
+      <input type="submit" value="Upload" />
+    </form>
+    <div class="footer">
+      Images will be uploaded securely to AWS S3.
+    </div>
+  </div>
+
 </body>
 </html>
 ```
