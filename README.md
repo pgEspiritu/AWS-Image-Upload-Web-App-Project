@@ -8,21 +8,21 @@ Users can upload images through a web interface hosted on **EC2**. Uploaded file
 
 ## 📁 Repository Contents
 
-### 1. [What I Will Build](#)  
+### 1. [What I Will Build](What-To-Build.md)  
 
 ### 2. 🚀 Step-by-Step Deployment Guide  
-- [Step 1: Launch an EC2 Instance](#)  
-- [Step 2: Create an S3 Bucket](#)  
-- [Step 3: Attach IAM Role to EC2](#)  
-- [Step 4: Upload Web App Code](#)  
-- [Step 5: Add Logging with CloudWatch](#)  
-- [Step 6 (Optional): Add Load Balancer and Auto-Scaling](#)  
+- [Step 1: Launch an EC2 Instance](Steps-By-Steps-Deployment/S1-Launch-an-EC2-Instance.md)  
+- [Step 2: Create an S3 Bucket](Steps-By-Steps-Deployment/S2-Create-An-S3-Bucket.md)  
+- [Step 3: Attach IAM Role to EC2](Steps-By-Steps-Deployment/S3-Attach-IAM-Role-To-EC2.md)  
+- [Step 4: Upload Web App Code](Steps-By-Steps-Deployment/S4-Upload-WebApp-Code.md)  
+- [Step 5: Add Logging with CloudWatch](Steps-By-Steps-Deployment/S5-Add-Logging-Cloudwatch.md)  
+- [Step 6 (Optional): Add Load Balancer and Auto-Scaling](Steps-By-Steps-Deployment/S6-Add-Load-Balancer-&-Auto-Scaling.md)  
 
 ### 3. 🛠️ Additional Resources  
-- [Using PuTTY to Connect to EC2 Instance](#)  
-- [Testing the Upload Web Application](#)  
-
-### 4. 📚 [Project Build Documentation](#)
+- [Using PuTTY to Connect to EC2 Instance](Steps-By-Steps-Deployment/Connect-Via-Putty.md)  
+- [Testing the Upload Web Application](Steps-By-Steps-Deployment/Test-Upload-Web-App.md)
+  
+### 4. 📚 [Project Build Documentation](Project-Documentation.md)
 
 ---
 
