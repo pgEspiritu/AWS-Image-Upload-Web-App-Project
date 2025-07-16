@@ -43,36 +43,42 @@ Linked the IAM role to the EC2 instance to enable secure access to the S3 bucket
 
 ## 7. Tested EC2 Access to S3 Bucket  
 Verified that the EC2 instance can upload to and retrieve from the configured S3 bucket using AWS CLI.  
+
 ![Tested EC2 Access](image/7.%20Tested-EC2-Access-To-S3-Bucket.png)
 
 ---
 
 ## 8. Uploaded PHP and HTML Files Using WinSCP & PuTTY  
 Deployed application files (PHP & HTML) to the EC2 server via WinSCP and PuTTY.  
+
 ![Uploaded Files](image/8.%20Uploaded-php-and-html-file-using-winscp-and-putty.png)
 
 ---
 
 ## 9. Created CloudWatch Logging  
 Set up CloudWatch for real-time monitoring and logging of application activity and errors.  
+
 ![CloudWatch Logging](image/9.%20Created-Cloudwatch-Logging.png)
 
 ---
 
 ## 10. Tested Image Uploader Web App  
 Launched the application in a browser and tested the file upload interface.  
+
 ![Tested Web App](image/10.%20Tested-Image-Uploader-Web-App.png)
 
 ---
 
 ## 11. Uploaded Successfully in the Web App  
 Successfully uploaded an image through the front-end and received a confirmation message.  
+
 ![Upload Success](image/11.%20Uploaded-Successfully-in-the-Web-App.png)
 
 ---
 
 ## 12. Verified Upload in the S3 Bucket  
 Confirmed that the uploaded image is stored in the specified S3 bucket.  
+
 ![Verified in S3](image/12.%20Successfully-Verified-Upload-in-the-S3-Bucket.png)
 
 ---
@@ -81,30 +87,35 @@ Confirmed that the uploaded image is stored in the specified S3 bucket.
 
 ## 13. Created Launch Template  
 Defined a launch template to standardize EC2 configurations for auto scaling.  
+
 ![Launch Template](image/13.%20Created-Launch-Template.png)
 
 ---
 
 ## 14. Created Auto Scaling Group  
 Set up an Auto Scaling Group (ASG) to manage EC2 instances based on load or health.  
+
 ![Auto Scaling Group](image/14.%20Created%20Auto-Scaling%20Group.png)
 
 ---
 
 ## 15. Created Load Balancer for EC2  
 Deployed an Application Load Balancer (ALB) to distribute traffic evenly across instances.  
+
 ![Load Balancer](image/15.%20Created-Load-Balancer-for-EC2.png)
 
 ---
 
 ## 16. Created Target Group  
 Defined a target group containing EC2 instances that the ALB routes traffic to.  
+
 ![Target Group](image/16.%20Created-Target-Group.png)
 
 ---
 
 ## 17. Attached Target Group to Auto Scaling Group  
 Connected the target group with the ASG to automatically manage traffic to new instances.  
+
 ![Attached Target Group](image/17.%20Attached-Target-Group-to-Auto-Scaling-Group.png)
 
 ---
