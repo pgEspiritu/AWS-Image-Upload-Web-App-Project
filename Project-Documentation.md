@@ -2,25 +2,25 @@
 
 ## 1. Created Image Uploader EC2 Instance  
 Successfully launched an EC2 instance that serves as the web server for the image uploader application.  
-![Created Image Uploader Instance](/image/1. Created-Image-Uploader-Instance.png)
+![Created Image Uploader Instance](image/1.%20Created-Image-Uploader-Instance.png)
 
 ---
 
 ## 2. Connected to EC2 Using PuTTY  
 Established an SSH connection to the EC2 instance using PuTTY for remote configuration and deployment.  
-![Connected to EC2 Using Putty](image/1. Created-Image-Uploader-Instance.png)
+![Connected to EC2 Using Putty](image/2.%20Connected-To-EC2-Using-Putty.png)
 
 ---
 
 ## 3. Web Server Is Working  
 Installed and verified Apache HTTP server functionality by accessing the EC2 instance's public IP.  
-![Web Server Is Working](image/1. Created-Image-Uploader-Instance.png)
+![Web Server Is Working](image/3.%20Web-Server-Is-Working.png)
 
 ---
 
 ## 4. Created Image Uploader S3 Bucket  
 Provisioned an S3 bucket that will store uploaded image files securely.  
-![Created S3 Bucket](image/1. Created-Image-Uploader-Instance.png)
+![Created S3 Bucket](image/4.%20Created-Image-Uploader-Bucket.png)
 
 ---
 
