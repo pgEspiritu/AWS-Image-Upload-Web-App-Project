@@ -2,7 +2,7 @@
 
 ## 1. Created Image Uploader EC2 Instance  
 Successfully launched an EC2 instance that serves as the web server for the image uploader application.  
-![Created Image Uploader Instance](image/1. Created-Image-Uploader-Instance.png)
+![Created Image Uploader Instance](/image/1. Created-Image-Uploader-Instance.png)
 
 ---
 
